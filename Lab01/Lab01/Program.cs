@@ -7,21 +7,27 @@ namespace Lab01
     {
         static void Main(string[] args)
         {
+            String str;
+            double val2;
+            Console.WriteLine("Please Enter your NAME:");
+            str = Console.ReadLine();
+            Console.WriteLine("Your name is: " + str);
 
-            try
-            {
-                Console.Write("Please enter value 1 :");
-                int val1 = Convert.ToInt32(Console.ReadLine());
-                Console.Write("Please enter value 2 :");
-                int val2 = Convert.ToInt32(Console.ReadLine());
-                Console.WriteLine("Answer = " + (val1 + val2));
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine("Error : " + e.ToString());
+            Console.WriteLine("Please Enter your LASTNAME:");
+            str = Console.ReadLine();
+            Console.WriteLine("Your lastname is: " + str);
+
+            Console.WriteLine("Please Enter your ID:");
+            int val1 = Convert.ToInt32(Console.ReadLine());
+            Console.WriteLine("Your ID is: "+val1);
+
+            Console.WriteLine("Please Enter your GPA:");
+            double Val2 = Convert.ToInt64(Console.ReadLine());
+            Console.WriteLine("Your ID is: " + Val2);
 
 
-            }
-            }
+
+
+        }
     }
 }
