@@ -8,11 +8,10 @@ namespace Lab01
         static void Main(string[] args)
         {
 
-
-            Console.WriteLine("Data type : int");
-            Console.WriteLine("Size :" + sizeof(int));
-            Console.WriteLine("Minimum Value :" + int.MinValue);
-            Console.WriteLine("Maximum Value :" + int.MaxValue);
+            string k;
+            Console.WriteLine("Plese Enter you NICKNAME");
+            k = Console.ReadLine();
+            Console.WriteLine("You entered: "+k);
 
 
 
