@@ -8,10 +8,19 @@ namespace Lab01
         static void Main(string[] args)
         {
 
-            string k;
-            Console.WriteLine("Plese Enter you NICKNAME");
-            k = Console.ReadLine();
-            Console.WriteLine("You entered: "+k);
+            Random random = new Random();
+            int randomNumber = random.Next(0,9);
+
+
+            Console.WriteLine("Plese you enter number:");
+            Console.WriteLine(randomNumber);
+            int a = Convert.ToInt32(Console.ReadLine());
+            //Console.WriteLine(a);
+
+            bool b = randomNumber == a;
+            Console.WriteLine("{0}", b);
+            Console.ReadKey();
+
 
 
 
